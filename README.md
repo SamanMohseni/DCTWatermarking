@@ -1,4 +1,4 @@
-![image](https://github.com/SamanMohseni/DCTWatermarking/assets/51726090/42e3c368-d999-433a-8646-575455b32904)# Robust Image Watermarking with DCT Manipulation
+# Robust Image Watermarking with DCT Manipulation
 
 This project is part of **Multimedia Systems** course.
 
