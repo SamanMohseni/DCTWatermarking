@@ -1,4 +1,6 @@
-# Robust Image Watermarking with DCT Manipulation
+![image](https://github.com/SamanMohseni/DCTWatermarking/assets/51726090/42e3c368-d999-433a-8646-575455b32904)# Robust Image Watermarking with DCT Manipulation
+
+This project is part of **Multimedia Systems** course.
 
 This project presents a robust method for embedding watermarks into images by manipulating the Discrete Cosine Transform (DCT) coefficients of image blocks. The process involves resizing the watermark, reshaping it into a one-dimensional array, encrypting it with a key, and then carefully embedding it into the DCT coefficients of the cover image. The method ensures that watermarked images can withstand common attacks such as JPEG compression while maintaining the ability to accurately extract the watermark.
 
