@@ -91,7 +91,7 @@ The adaptive alpha implementation adjusts the watermark embedding strength based
 
 Here's an illustration comparing the two methods:
 
-Adaptive             |  Non-Adaptive
+Non-Adaptive             |  Adaptive
 :-------------------------:|:-------------------------:
 ![Adaptive](https://github.com/SamanMohseni/DCTWatermarking/assets/51726090/7f50ac2f-18ae-4285-b9d7-9eafc848f0b7)  |  ![Non-Adaptive](https://github.com/SamanMohseni/DCTWatermarking/assets/51726090/e0d10646-71ec-41c4-a8ff-08a1ca792fe4)
 
