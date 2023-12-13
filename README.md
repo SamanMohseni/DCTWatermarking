@@ -91,13 +91,7 @@ The adaptive alpha implementation adjusts the watermark embedding strength based
 
 This adaptive approach allows for a more nuanced watermarking process that can cater to the unique characteristics of each block in the image.
 
-<div style="display: flex;">
-  <img src="https://github.com/SamanMohseni/DCTWatermarking/assets/51726090/7f50ac2f-18ae-4285-b9d7-9eafc848f0b7" 
-       alt="Original Image">
-
-  <img src="https://github.com/SamanMohseni/DCTWatermarking/assets/51726090/e0d10646-71ec-41c4-a8ff-08a1ca792fe4"  
-       alt="Watermarked Image">
-</div>
+![Adaptive](https://github.com/SamanMohseni/DCTWatermarking/assets/51726090/7f50ac2f-18ae-4285-b9d7-9eafc848f0b7) ![Non-Adaptive](https://github.com/SamanMohseni/DCTWatermarking/assets/51726090/e0d10646-71ec-41c4-a8ff-08a1ca792fe4)
 
 
 ## Conclusion
