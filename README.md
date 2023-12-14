@@ -8,12 +8,12 @@ This project presents a robust method for embedding watermarks into images by ma
 
 - **Resize Watermark**: The watermark is resized to match the dimensions of the image blocks of the cover image.
 - **Watermark Encryption**: The watermark is encrypted using a permutation based on a key to enhance security and make it harder to detect.
-- **DCT Manipulation**: The encrypted watermark is embedded into the DCT coefficients of the image blocks. The method involves ensuring an inequality between two selected DCT coefficients that correspond to the watermark bit.
+- **DCT Manipulation**: The encrypted watermark is embedded into the DCT coefficients of the image blocks. The method involves injecting an inequality between two selected DCT coefficients that correspond to the watermark bit.
 - **Inverse DCT**: After embedding the watermark, the inverse DCT is applied to generate the watermarked image blocks, which are then assembled to form the final watermarked image.
 
 ## Results
 
-Robustness is evaluated by assessing the watermarked images' resistance to JPEG compression attacks. The success of the watermark extraction is quantified using the Normalized Correlation (NC) metric. The tables below showcase the NC values obtained under different conditions, illustrating the effectiveness of the watermarking process across various JPEG quality settings and alpha values.
+Robustness is evaluated by assessing the watermarked images' resistance to JPEG compression attacks. The success of the watermark extraction is quantified using the Normalized Correlation (NC) metric. The tables below show the NC values under different conditions, evaluating the effectiveness of the watermarking method across various JPEG quality settings and alpha values.
 
 ### Table 1: Results for Lena.bmp with B = 8, a = B/2, K = 19
 
@@ -96,8 +96,3 @@ Here's an illustration comparing the two methods:
 Non-Adaptive             |  Adaptive
 :-------------------------:|:-------------------------:
 ![Adaptive](https://github.com/SamanMohseni/DCTWatermarking/assets/51726090/7f50ac2f-18ae-4285-b9d7-9eafc848f0b7)  |  ![Non-Adaptive](https://github.com/SamanMohseni/DCTWatermarking/assets/51726090/e0d10646-71ec-41c4-a8ff-08a1ca792fe4)
-
-
-## Conclusion
-
-The presented tables demonstrate the watermark's robustness across different settings and JPEG compression levels. The adaptive alpha method further refines the watermarking process, providing an additional layer of robustness by adapting the embedding strength to the image content.
