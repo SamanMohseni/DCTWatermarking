@@ -1,6 +1,5 @@
 # Robust Image Watermarking with DCT Manipulation
-
-This project is part of the **Multimedia Systems** course.
+This project was originally conducted as part of the **Fall 2019 Multimedia Systems** course.
 
 This project presents a robust method for embedding watermarks into images by manipulating the Discrete Cosine Transform (DCT) coefficients of image blocks. The process involves resizing the watermark, reshaping it into a one-dimensional array, encrypting it with a key, and then carefully embedding it into the DCT coefficients of the cover image. The method ensures that watermarked images can withstand common attacks such as JPEG compression while maintaining the ability to accurately extract the watermark.
 
@@ -91,6 +90,8 @@ The adaptive alpha implementation adjusts the watermark embedding strength based
 - Adjust the alpha value proportionally to the variance, ensuring that blocks with higher variance (more detail) can withstand stronger watermarking without visible artifacts.
 - Apply the adjusted alpha value during the DCT coefficient manipulation.
 
+## Acknowledgments
+Course instructor: [Dr. Shadrokh Samavi](https://scholar.google.com/citations?user=Hj3vz2YAAAAJ&hl=en)
 Here's an illustration comparing the two methods:
 
 Non-Adaptive             |  Adaptive
