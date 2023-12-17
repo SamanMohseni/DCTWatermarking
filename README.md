@@ -90,10 +90,11 @@ The adaptive alpha implementation adjusts the watermark embedding strength based
 - Adjust the alpha value proportionally to the variance, ensuring that blocks with higher variance (more detail) can withstand stronger watermarking without visible artifacts.
 - Apply the adjusted alpha value during the DCT coefficient manipulation.
 
-## Acknowledgments
-Course instructor: [Dr. Shadrokh Samavi](https://scholar.google.com/citations?user=Hj3vz2YAAAAJ&hl=en)
 Here's an illustration comparing the two methods:
 
 Non-Adaptive             |  Adaptive
 :-------------------------:|:-------------------------:
 ![Adaptive](https://github.com/SamanMohseni/DCTWatermarking/assets/51726090/7f50ac2f-18ae-4285-b9d7-9eafc848f0b7)  |  ![Non-Adaptive](https://github.com/SamanMohseni/DCTWatermarking/assets/51726090/e0d10646-71ec-41c4-a8ff-08a1ca792fe4)
+
+## Acknowledgments
+Course instructor: [Dr. Shadrokh Samavi](https://scholar.google.com/citations?user=Hj3vz2YAAAAJ&hl=en)
